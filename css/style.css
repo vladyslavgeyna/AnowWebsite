@@ -871,7 +871,6 @@ body {
         margin: 0 0 10px 0;
         max-width: 100%;
         left: 0;
-
     }
     .works__item_check-center {
         margin: 0 0 10px 0;
@@ -880,6 +879,7 @@ body {
     }
     .works__body {
         padding: 0 15px;
+        margin: 0 auto 0 auto;
     }
     .works__column_center-content .works__item_image {
         max-width: 360px;
@@ -894,6 +894,9 @@ body {
     .works__item {
         display: flex;
         justify-content: center;
+    }
+    .works__item {
+        margin-bottom: 15px;
     }
     .works {
         margin: 30px 0 0 0;
