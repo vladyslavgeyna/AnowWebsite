@@ -234,7 +234,7 @@ body {
     min-width: 100%;
 }
 .main-block_background {
-    background: url('/images/background.png') no-repeat center;
+    background: url('../images/background.png') no-repeat center;
     background-size: cover;
     height: 100%;
     padding: 175px 0 323px 0;
