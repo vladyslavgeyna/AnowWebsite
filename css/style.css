@@ -689,7 +689,7 @@ body {
 .portfolio__button:hover {
     cursor: pointer;
 }
-.button-orange {
+.portfolio__button {
     padding: 13px 37px;
 }
 @media (max-width: 950px) {
@@ -703,9 +703,8 @@ body {
     .portfolio__content {
         padding: 0 10px 0 0;
     }
-    .button-orange {
+    .portfolio__button {
         padding: 7px 35px;
-        height: 100%;
     }
     .portfolio {
     margin: 70px 0 0 0;
@@ -721,7 +720,7 @@ body {
     .portfolio__content {
         padding: 0 0 0 0;
     }
-    .button-orange {
+    .portfolio__button {
         padding: 7px 35px;
         width: 75%;
         margin: 15px 0 0 0;
@@ -735,7 +734,7 @@ body {
     }
 }
 @media (max-width: 550px) {
-    .button-orange {
+    .portfolio__button {
         width: 100%;
     }
 }
@@ -1163,7 +1162,6 @@ body {
 }
 .team__item {
     text-align: center;
-    max-width: 350px;
     height: 350px;
 }
 .team__item_img {
@@ -1262,14 +1260,6 @@ body {
     .team__body {
         padding: 0 0;
     }
-    /* .start__button {
-        text-align: center;
-    }
-    .start__button {
-        text-align: center;
-        margin: 30px auto 0 auto;
-    } */
-
 }
 @media(max-width: 650px) {
     .team__item {
@@ -1309,6 +1299,9 @@ body {
     }
     .team__item_position {
         font-size: 12px;
+    }
+    .start__button {
+        margin: 35px auto 0 auto;
     }
 }
 /*-----------------------------------------------*/
@@ -1397,6 +1390,11 @@ body {
     }
     .testimonials__text {
         font-size: 12px;
+    }
+}
+@media(max-width: 425.98px) {
+    .testimonials {
+        margin-top: 50px;
     }
 }
 /*-----------------------------------------------*/
