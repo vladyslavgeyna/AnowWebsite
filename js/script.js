@@ -1,4 +1,4 @@
-let header__burger = document.querySelectorAll('.header__burger,.menu__link');
+let header__burger = document.querySelectorAll('.header__burger');
 let header_menu = document.querySelector('.header-menu');
 let back = document.querySelector('body');
 header__burger.forEach(function (item) {
